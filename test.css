@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.top{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 0px 100px;
+    height: 100px;
+}
+
+.one img {
+    width: 60px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.three{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-left: 1px solid #ededed;
+}
+
+.shotimage{
+    padding: 10px;
+}
+
+.three a{
+    color: green;
+}
+
+.two ul{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    list-style: none;
+}
+
+.two a{
+    color: black;
+    text-decoration: none;
+}
+
+.two li{
+    padding: 10px;
+}
+
+.more ul{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    list-style: none;
+    background-color:#ededed;
+    height: 40px;
+}
+
+.more a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.backimage {
+    width: 100%;
+    height: 500px;
+    background-image: url("https://www.timeshighereducation.com/sites/default/files/styles/article785xauto/public/hands-together-720.jpg?itok=XC_Vumo7");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white;
+    overflow: hidden;
+    position: relative;
+}
+
+.slow{
+    font-size: 15px;
+}
+
+.slowone {
+    margin: 30px 0px -56px 0px;
+}
+
+.slowone a {
+    background-color: #00af07;
+    padding: 10px 11px;
+    color: white;
+    margin: 30px 0px;
+    text-decoration: none;
+}
+
+.slowone a i {
+    padding: 0px 0px 0px 10px;
+}
+.slow li{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.slow ul {
+    padding: 5px 60px;
+}
+
+.middel{
+    font-size: 30px;
+    position: absolute;
+    top:350px;
+    left:680px;
+}
+
+.middel i{
+    margin:0px 15px;
+}
+
+.fast {
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    text-align: center;
+    margin: 120px 0px 0px 300px;  
+    border-radius: 10px;
+    border: 2px solid #75778e;
+}
+
+.fast h2 {
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fast p{
+    color:#75778e ;
+}
+
+.fast input {
+    font-size: 20px;
+    padding: 10px 35px;
+    margin: 5px;
+    background-color: #ededed;
+    border-radius: 4px;
+    border: 0px;
+}
+
+.fastone{
+    margin: 30px 0px;
+}
+
+.fast a {
+    font-size: 20px;
+    padding: 13px 124px;
+    border-radius: 7px;
+    background-color: #00af07;
+    color: white;
+    text-decoration: none;
+}
+
+.paragraph {
+    margin: 30px;
+    text-align: justify;
+    padding: 0px 85px;
+}
+
+.paragraph h4 {
+    padding: 0px 0px 20px 0px;
+    text-decoration: underline;
+}
+
+.paragraph h3{
+    padding:0px 0px 30px 0px;
+    font-size: 20px;
+}
+
+.paragraph p {
+    padding: 20px 100px;
+    font-size: 22px;
+}
+
+.box{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.boxone {
+    width: 250px;
+    height: 600px;
+    box-shadow: -1px -1px 20px black;
+    margin: 30px 0px;
+}
+
+.boxone:hover{
+    background-color:#00af07;
+}
+
+.boxone p{
+    /* padding: 20px; */
+    margin:0px 30px;
+    text-align: justify;
+    font-size: 20px;
+    margin:20px 30px;
+}
+
+.boxone h2{
+    margin: 25px;
+    text-align: justify;
+}
+
+.boxone img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.boxone a{
+    margin: 0px 100px 0px 0px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.demotwo{
+    margin: 30px 0px;
+    text-align: center;
+    margin: 30px 0px 80px 0px;
+}
+.demotwo a {
+    background-color: #00af07;
+    padding: 10px 11px;
+    color: white;
+    text-decoration: none;
+}
+
+.demoone{
+    text-align: center;
+    padding: 10px;
+}
+
+.demoone h4{
+    margin: 10px;
+    text-decoration: underline;
+    color:gray;
+}
+
+.demoone h3{
+    font-size: 23px;
+}
+
+
+.backpicture{
+    background-image: url("https://media.gettyimages.com/id/1210557301/photo/magic-book-open.jpg?s=612x612&w=gi&k=20&c=FI0DAxAlSgDuxYEcNGA0n_oYKq-7zTFoyDtDttWvRHE=");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+
+.image img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.editone {
+    margin: 0px 0px 20px 0px;
+}
+
+.explain{
+    color: white;
+    margin:0px 0px 50px 0px;
+}
+
+.editedone {
+    margin: 0px 0px 30px 0px;
+}
+
+.edited {
+    margin: 0px 0px 30px 0px;
+
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 30px 0px;
+}
+
+.edittwo h3{
+    margin: 30px 0px;
+}
+
+.edittwo a{
+    background-color: #00af07;
+    padding: 9px 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.america{
+    padding: 10px;
+}
+
+
+.squre{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin:50px 0px;
+}
+
+.squreone {
+    width: 300px;
+    height: 150px;
+    border: 1px solid #ededed;
+    border-radius: 2px;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.squreone p{
+    font-size: 20px;
+}
+.squreone h2 {
+    font-size: 50px;
+    color: #00af07;
+}
